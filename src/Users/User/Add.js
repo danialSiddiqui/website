@@ -40,13 +40,21 @@ export default class AddUser extends Component {
 			
 			if (response.data.length > 0) {
 				
-			  this.setState({
-				roley: response.data.map(rname => rname.RoleName , rid => rid.test),
+				
+
+			   this.setState({
+				roley: response.data.RoleName
+				  /* roletype: response.data.RoleType,
+				 roley: response.data.map(rname => rname.RoleName , rid => rid.test),
 				RoleName: response.data[0].RoleName,
-				test: response.data.RoleType,
-			  })
+				test: response.data.RoleType, */
+			  }) 
+			  
 			}
 		  })
+		  
+			  
+		  
 		  .catch((error) => {
 			console.log(error);
 		  })
@@ -140,6 +148,7 @@ export default class AddUser extends Component {
 	}
   
 	render(){
+		const user = this.state;
   return (
    <div className="inter-body">
    	<div className="container-fluid">
@@ -206,14 +215,9 @@ export default class AddUser extends Component {
    								<label className="sec-1">
           						<span className="label-text">Role:</span> <br />
           						<select className="form-control" value={this.state.Role} onChange={this.onChangeRole}>
-								  {
-                this.state.roley.map(function(rname , rid ) {
-					return <option 
-					  
-					  value={rid}>{rname}
-					  </option>;
-				  }) 
-              }
+								{this.state.roley.map((item)=>
+          						<option  value={item.RoleTpye}>{item.RoleName} </option>
+         						)}	  
 								  </select>
         						</label>
         					</div>

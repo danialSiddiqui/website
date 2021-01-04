@@ -104,6 +104,85 @@ export default class RoleAdd extends Component {
                   </div>
 				  </div>
 				  <div className="row">
+					  <div className="col-12 form-group"><h5>Access to Role</h5></div>			  
+				  </div>
+				  <div className="row">
+                <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">Admin:</span> 
+                    </label>
+                  </div>
+				  <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">Admissions</span> 
+                    </label>
+                  </div>
+				  <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">Accounts</span> 
+                    </label>
+                  </div>
+				  <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">Academic Affairs</span> 
+                    </label>
+                  </div>
+				  </div>
+				  <div className="row">
+                <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">Student Affairs</span> 
+                    </label>
+                  </div>
+				  <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">CSEP</span> 
+                    </label>
+                  </div>
+				  <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">Consuling</span> 
+                    </label>
+                  </div>
+				  <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">HR</span> 
+                    </label>
+                  </div>
+				  <div className="col-3 form-group">
+                  <label className="sec-12">
+                      
+                      <input className="form-check-label" type="checkbox" value=""  onChange=""  />
+					  &nbsp;
+					  <span className="label-text">Miscellaneous</span> 
+                    </label>
+                  </div>
+				  </div>
+				  <div className="row">
                 <div className="col-12 form-group">
                   <label className="sec-1">
                       
