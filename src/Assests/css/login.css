@@ -1,0 +1,133 @@
+.Side-1{
+	BACKGROUND: url(../images/bg-login.png) no-repeat;
+    WIDTH: 45%;
+    display: inline-block;
+}
+
+
+.Side-2 {
+    BACKGROUND: white;
+    WIDTH: 55%;
+    display: inline-block;
+        position: absolute;
+}
+
+.logo-img{
+	width: 100%;
+}
+/*
+.body-login{
+	    height: 100vh!important;
+}
+
+.hv-100{
+	height: 100vh!important;
+} */
+
+.logo-img {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: middle;
+    margin-top: 37%;
+    margin-bottom: 22%;
+}
+
+.side-2-content {
+    align-items: center;
+    position: relative;
+    top: 30%;
+    padding: 0% 25%;
+}
+
+.hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1px;
+    overflow: hidden;
+    background: #e9ecef;
+        display: block;
+
+}
+
+.sec-1{
+	width: 50%;
+	display:inline-block;
+}
+
+.sec-2{
+width: 50%;
+	display:inline-block;
+}
+
+.btn {
+    float: right;
+}
+
+.main-text{
+
+	font-size: 26px;
+    color: #495057;
+    opacity: .6;
+    font-weight: 300;
+    margin:  0px;
+    padding: 0;
+
+}
+
+.p-text {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #495057;
+}
+
+.input-field{
+	display: block;
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 5px;
+}
+
+.label-text {
+    color: #292929e0;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+ .btn-submit{
+    display: inline-block;
+    font-weight: 400;
+    color: #30312f;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: initial;
+    border: 1px solid transparent;
+    padding: 0.375rem 2.75rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    border-radius: .25rem;
+    background: #f8c21b;
+}
+
+.forgot-email .input-field{
+    display: block;
+    width: 100%;
+
+    }
+
+
+    .forgot-e .btn {
+    float: none;
+    padding: 0px;
+}
