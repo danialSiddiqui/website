@@ -8,8 +8,8 @@ const Interviews = props => (
   <tr>
     <th scope="row">1</th>
     <td>{props.interview.RegNum}</td>
-    <td>{props.interview.Number}</td>
-    <td>{props.interview.SchoolName}</td>
+    {/* <td>{props.interview.Number}</td>
+    <td>{props.interview.SchoolName}</td> */}
     <td>{props.interview.date.substring(0,10)}</td>
     <td>{props.interview.Interviewee}</td>
     <td>N/a</td>
@@ -99,8 +99,8 @@ export default class Interviewlist extends Component {
     <tr>
       <th scope="col">Name</th>
       <th scope="col">Registration No</th>
-      <th scope="col">Application Reivied On</th>
-      <th scope="col">Contact Number</th>
+     {/*   <th scope="col">Application Reivied On</th>
+      <th scope="col">Contact Number</th> */}
       <th scope="col">Interview Scheduled On</th>
       <th scope="col">Interviee</th>
       <th scope="col">Status</th>
